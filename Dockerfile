@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 ARG MSMTP_VERSION=1.8.26
-ARG ALPINE_VERSION=3.19
+ARG ALPINE_VERSION=3.20
 ARG XX_VERSION=1.4.0
 
 FROM --platform=$BUILDPLATFORM tonistiigi/xx:${XX_VERSION} AS xx
